@@ -22,7 +22,7 @@ node --input-type=module -e "import { randomBytes } from 'node:crypto'; console.
 
 ## 创建运行时
 
-在 Node.js 服务端新建 `runtime.js`：
+在 Node.js 服务端新建 `runtime.mjs`。示例使用 `.mjs` 扩展名，让 Node.js 按 ES 模块运行代码，包括顶层的 `await`。
 
 ```js
 import { DatabaseSync } from 'node:sqlite'
@@ -50,7 +50,7 @@ await runtime.secrets.put({ apiKey, baseUrl, model })
 `runtime` 包含 `secrets`、`sessions`、`pendingCalls`、`tools` 和 `harness`。你可以通过 `runtime.tools.register(...)` 添加工具；直接提问时，调用 `runtime.harness.run(...)`：
 
 ```js
-import { runtime } from './runtime.js'
+import { runtime } from './runtime.mjs'
 
 // sessionId 标识这段对话；再次使用同一个值时会读取已保存的会话。
 const result = await runtime.harness.run({

@@ -10,12 +10,12 @@ npm install @agentkit-ai/bff-hono hono
 
 ## 挂载 Agent 路由
 
-以下代码使用 [SQLite 适配器](/packages/adapter-sqlite)示例导出的 `runtime`。在服务端设置 `BFF_API_TOKEN`，再创建路由：
+以下代码使用 [SQLite 适配器](/packages/adapter-sqlite)示例导出的 `runtime`。在服务端设置 `BFF_API_TOKEN`，然后把代码保存为 `server.mjs`。`.mjs` 会让 Node.js 按 ES 模块运行示例。
 
 ```js
 import { Hono } from 'hono'
 import { createAgentBff } from '@agentkit-ai/bff-hono'
-import { runtime } from './runtime.js'
+import { runtime } from './runtime.mjs'
 
 // BFF_API_TOKEN 是客户端访问 BFF 的演示凭据，不是模型 API Key。
 const bffApiToken = process.env.BFF_API_TOKEN
