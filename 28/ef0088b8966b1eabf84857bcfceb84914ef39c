@@ -1,0 +1,22 @@
+docs/superpowers/plans/2026-09-29-vitepress-agent-kit-docs.md
+  s_f127ac31f7829d::t_309a859fa1eee5 98-99
+  s_f127ac31f7829d::t_f39374ad708987 147,149-152,169
+  s_f127ac31f7829d::t_352e3e6f5a3f0c 179
+  s_f127ac31f7829d::t_8d1a11152214eb 1-97,100-146,148,153-168,170-178,180-193
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "28ef0088b8966b1eabf84857bcfceb84914ef39c",
+  "prompts": {},
+  "sessions": {
+    "s_f127ac31f7829d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0eb0e-f6a9-7300-9e29-61c56f10f7f5",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "vincent-xw <jiaxuewen2006@163.com>"
+    }
+  }
+}
