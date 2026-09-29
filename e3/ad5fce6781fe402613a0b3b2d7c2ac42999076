@@ -1,0 +1,19 @@
+docs/.vitepress/config.ts
+  s_f127ac31f7829d::t_e1b6d79cdc1e19 11,17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "e3ad5fce6781fe402613a0b3b2d7c2ac42999076",
+  "prompts": {},
+  "sessions": {
+    "s_f127ac31f7829d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0eb0e-f6a9-7300-9e29-61c56f10f7f5",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "vincent-xw <jiaxuewen2006@163.com>"
+    }
+  }
+}
