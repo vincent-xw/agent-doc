@@ -1,0 +1,19 @@
+docs/packages/bff-hono.md
+  s_f127ac31f7829d::t_5a5e945acf8cbc 59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "de03e7fac802f3002e0050ee2c977c331a28e150",
+  "prompts": {},
+  "sessions": {
+    "s_f127ac31f7829d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0eb0e-f6a9-7300-9e29-61c56f10f7f5",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "vincent-xw <jiaxuewen2006@163.com>"
+    }
+  }
+}
