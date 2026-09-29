@@ -8,15 +8,13 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '快速开始', link: '/guide/getting-started' },
-      { text: '部署', link: '/deploy/cloudflare-pages' }
+      { text: '快速开始', link: '/guide/getting-started' }
     ],
     sidebar: [
       { text: '快速开始', link: '/guide/getting-started' },
       { text: 'Core', link: '/packages/core' },
       { text: 'SQLite', link: '/packages/adapter-sqlite' },
-      { text: 'Hono BFF', link: '/packages/bff-hono' },
-      { text: 'Pages 部署', link: '/deploy/cloudflare-pages' }
+      { text: 'Hono BFF', link: '/packages/bff-hono' }
     ]
   }
 })
