@@ -56,4 +56,4 @@ export default app
 
 请求需要带上项目认证逻辑要求的凭据；上面的演示代码使用 `Authorization: Bearer <BFF_API_TOKEN>`。`input` 是用户的问题，`context` 是本次请求的业务信息，没有额外信息时传空对象即可。同一用户重复使用同一个 `sessionId`，即可继续这段对话。
 
-模型服务的 `LLM_API_KEY` 和 `AGENT_KIT_MASTER_KEY` 始终保留在 BFF 服务端环境中，不要传给 HTTP 客户端。Cloudflare Pages 只托管本文档站点的静态文件；这些 Agent 示例运行在你的 Node.js 服务中。
+模型服务的 `LLM_API_KEY` 和 `AGENT_KIT_MASTER_KEY` 始终保留在 BFF 服务端环境中，不要传给 HTTP 客户端；这些 Agent 示例运行在你的 Node.js 服务中。
