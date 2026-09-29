@@ -1,0 +1,24 @@
+docs/guide/getting-started.md
+  s_f127ac31f7829d::t_449de0170b6da9 7
+  s_f127ac31f7829d::t_e749aa87344f03 2-6,8-76
+docs/packages/core.md
+  s_f127ac31f7829d::t_449de0170b6da9 2-62
+docs/index.md
+  s_f127ac31f7829d::t_c601a16548ba27 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "54f8a50c82d1feb3f7004097cf7c81be90be97fb",
+  "prompts": {},
+  "sessions": {
+    "s_f127ac31f7829d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0eb0e-f6a9-7300-9e29-61c56f10f7f5",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "vincent-xw <jiaxuewen2006@163.com>"
+    }
+  }
+}
