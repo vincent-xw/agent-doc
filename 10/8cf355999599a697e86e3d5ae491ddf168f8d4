@@ -1,0 +1,21 @@
+docs/packages/bff-hono.md
+  s_f127ac31f7829d::t_1605bc552ce65b 2-59
+docs/packages/adapter-sqlite.md
+  s_f127ac31f7829d::t_1605bc552ce65b 2-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "108cf355999599a697e86e3d5ae491ddf168f8d4",
+  "prompts": {},
+  "sessions": {
+    "s_f127ac31f7829d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0eb0e-f6a9-7300-9e29-61c56f10f7f5",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "vincent-xw <jiaxuewen2006@163.com>"
+    }
+  }
+}
