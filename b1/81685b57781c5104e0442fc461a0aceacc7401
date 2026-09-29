@@ -1,0 +1,14 @@
+docs/superpowers/specs/2026-09-29-vitepress-agent-kit-docs-design.md
+  h_959ffaaf5065b8 1-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "b181685b57781c5104e0442fc461a0aceacc7401",
+  "prompts": {},
+  "humans": {
+    "h_959ffaaf5065b8": {
+      "author": "vincent-xw <jiaxuewen2006@163.com>"
+    }
+  }
+}
