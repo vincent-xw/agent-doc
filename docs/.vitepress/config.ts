@@ -15,6 +15,9 @@ export default defineConfig({
       { text: 'Core', link: '/packages/core' },
       { text: 'SQLite', link: '/packages/adapter-sqlite' },
       { text: 'Hono BFF', link: '/packages/bff-hono' }
+    ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vincent-xw/agent-doc' }
     ]
   }
 })
