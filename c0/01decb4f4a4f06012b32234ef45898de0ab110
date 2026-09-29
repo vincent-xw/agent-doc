@@ -1,0 +1,38 @@
+docs/.vitepress/config.ts
+  s_f127ac31f7829d::t_f7485f8c922dfa 1-22
+.gitignore
+  s_f127ac31f7829d::t_f7485f8c922dfa 1-7
+docs/packages/adapter-sqlite.md
+  s_f127ac31f7829d::t_f7485f8c922dfa 1
+docs/packages/bff-hono.md
+  s_f127ac31f7829d::t_f7485f8c922dfa 1
+package.json
+  s_f127ac31f7829d::t_f7485f8c922dfa 1-13,18-19
+  s_f127ac31f7829d::t_eb9cf65e8581ee 14-17
+docs/deploy/cloudflare-pages.md
+  s_f127ac31f7829d::t_f7485f8c922dfa 1
+docs/packages/core.md
+  s_f127ac31f7829d::t_f7485f8c922dfa 1
+docs/index.md
+  s_f127ac31f7829d::t_f7485f8c922dfa 1
+docs/guide/getting-started.md
+  s_f127ac31f7829d::t_f7485f8c922dfa 1
+package-lock.json
+  s_f127ac31f7829d::t_65ce67de3f880f 1-4032
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "c001decb4f4a4f06012b32234ef45898de0ab110",
+  "prompts": {},
+  "sessions": {
+    "s_f127ac31f7829d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0eb0e-f6a9-7300-9e29-61c56f10f7f5",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "vincent-xw <jiaxuewen2006@163.com>"
+    }
+  }
+}
