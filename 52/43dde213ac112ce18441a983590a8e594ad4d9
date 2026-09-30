@@ -1,0 +1,70 @@
+demo/src/todos.mjs
+  s_7855b82a0ef727::t_8952a467afbfd8 1-63
+docs/.vitepress/config.ts
+  s_7855b82a0ef727::t_4e48f14cfc2bf8 11-12,16
+demo/src/auth.mjs
+  s_7855b82a0ef727::t_d6c688e583f9f9 1-40
+demo/package.json
+  s_7855b82a0ef727::t_7a8a499718432e 1-22
+demo/src/events.mjs
+  s_7855b82a0ef727::t_788cbbdaf6d695 1-5,8-9,11-26,28,31,33,37-44,46-55,57-60,62-64,66-72,74-84
+  s_7855b82a0ef727::t_9e54ce26485ce8 6-7,10,27,29-30,32,34-36,45,56,61,65,73
+demo/src/config.mjs
+  s_7855b82a0ef727::t_42f3f728b5d2c0 1-104
+demo/src/tools.mjs
+  s_7855b82a0ef727::t_84fae5fdbcf1de 1-85
+demo/public/style.css
+  s_7855b82a0ef727::t_809ce1ca118909 1-270
+demo/src/prompts.mjs
+  s_7855b82a0ef727::t_640bd28ea7cd3a 1-19
+demo/.env.example
+  s_7855b82a0ef727::t_7ef61d5ae328ac 1-23
+demo/public/index.html
+  s_7855b82a0ef727::t_e375fa22a5301d 1-64
+.gitignore
+  s_7855b82a0ef727::t_5bcb2ec9660d9b 8-9
+demo/README.md
+  s_7855b82a0ef727::t_fac736c8159eb0 1-111
+docs/demo/index.md
+  s_7855b82a0ef727::t_e6adeedd485a6e 1-130
+demo/src/server.mjs
+  s_7855b82a0ef727::t_eda2d58f003f87 7
+  s_7855b82a0ef727::t_f227ea6bf9816d 87,89-92
+  s_7855b82a0ef727::t_ab6530d656f3e4 1-6,8-77,79-85,96-108,111-211
+  s_7855b82a0ef727::t_6dc227966e50c5 78,86,88,93-95,109-110
+demo/public/app.js
+  s_7855b82a0ef727::t_edc010f42a975a 1-282
+demo/package-lock.json
+  s_7855b82a0ef727::t_d2199ae2a34ed2 1-81
+pnpm-workspace.yaml
+  s_ca82d32ea3465f::t_3137d28395bd9a 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "5243dde213ac112ce18441a983590a8e594ad4d9",
+  "prompts": {},
+  "humans": {
+    "h_959ffaaf5065b8": {
+      "author": "vincent-xw <jiaxuewen2006@163.com>"
+    }
+  },
+  "sessions": {
+    "s_7855b82a0ef727": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a49cc1ea-d7b1-4292-95ee-e7aa68609afe",
+        "model": "deepseek/deepseek-v4.1-flash"
+      },
+      "human_author": "vincent-xw <jiaxuewen2006@163.com>"
+    },
+    "s_ca82d32ea3465f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "67843bda-d930-4441-94c2-8b9f5326d3f1",
+        "model": "deepseek/deepseek-v4.1-flash"
+      },
+      "human_author": "vincent-xw <jiaxuewen2006@163.com>"
+    }
+  }
+}
