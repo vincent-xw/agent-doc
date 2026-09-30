@@ -9,11 +9,13 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/guide/getting-started' },
-      { text: '示例应用', link: '/demo/' }
+      { text: '示例应用', link: '/demo/' },
+      { text: 'API 参考', link: '/reference/' }
     ],
     sidebar: [
       { text: '快速开始', link: '/guide/getting-started' },
       { text: '示例应用', link: '/demo/' },
+      { text: 'API 参考', link: '/reference/' },
       { text: 'Core', link: '/packages/core' },
       { text: 'SQLite', link: '/packages/adapter-sqlite' },
       { text: 'Hono BFF', link: '/packages/bff-hono' }
