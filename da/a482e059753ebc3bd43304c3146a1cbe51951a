@@ -1,0 +1,29 @@
+docs/reference/index.md
+  s_2564f6adb90eb1::t_103017695e684b 1-20,22-266,276-299,301-363
+  s_2564f6adb90eb1::t_ca7ba697692807 21
+  s_2564f6adb90eb1::t_5c566fb3302b6e 267-275
+  s_2564f6adb90eb1::t_3db23ba8995163 300
+docs/.vitepress/config.ts
+  s_2564f6adb90eb1::t_2cd562ea69af64 12-13,18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "daa482e059753ebc3bd43304c3146a1cbe51951a",
+  "prompts": {},
+  "humans": {
+    "h_959ffaaf5065b8": {
+      "author": "vincent-xw <jiaxuewen2006@163.com>"
+    }
+  },
+  "sessions": {
+    "s_2564f6adb90eb1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "703b6488-6ba0-4699-941f-0b9d1e3a79be",
+        "model": "deepseek/deepseek-v4.1-flash"
+      },
+      "human_author": "vincent-xw <jiaxuewen2006@163.com>"
+    }
+  }
+}
