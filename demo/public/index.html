@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agent Kit 示例 · 待办助手</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>待办助手</h1>
+      <p class="subtitle">
+        由 Agent Kit 驱动：Agent 通过工具读写右侧同一份 SQLite 数据。你也可以不用聊天，直接手动增删。
+      </p>
+    </header>
+
+    <!-- 开启了鉴权时才显示，用于填写 BFF_API_TOKEN。 -->
+    <section id="auth-bar" class="auth-bar" hidden>
+      <label for="token">访问凭据（BFF_API_TOKEN）</label>
+      <input id="token" type="password" placeholder="粘贴 token 后按回车" autocomplete="off" />
+    </section>
+
+    <main class="layout">
+      <section class="pane" aria-labelledby="todos-title">
+        <div class="pane-head">
+          <h2 id="todos-title">待办</h2>
+          <span id="todos-count" class="count"></span>
+        </div>
+
+        <form id="todo-form" class="row">
+          <input id="todo-title" type="text" placeholder="手动添加一条待办" autocomplete="off" />
+          <button type="submit">添加</button>
+        </form>
+
+        <ul id="todos" class="todo-list"></ul>
+        <p id="todos-empty" class="empty" hidden>还没有待办。手动加一条，或者让左边的助手帮你加。</p>
+      </section>
+
+      <section class="pane" aria-labelledby="chat-title">
+        <div class="pane-head">
+          <h2 id="chat-title">对话</h2>
+          <button id="new-session" type="button" class="link">新会话</button>
+        </div>
+
+        <div id="messages" class="messages" aria-live="polite"></div>
+
+        <!-- 未配置模型时由脚本填上提示文案并禁用输入。 -->
+        <p id="chat-hint" class="hint" hidden></p>
+
+        <form id="chat-form" class="row">
+          <input
+            id="chat-input"
+            type="text"
+            placeholder="例如：帮我加一条待办，明天上午买牛奶"
+            autocomplete="off"
+          />
+          <button type="submit">发送</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

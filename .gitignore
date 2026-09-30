@@ -5,3 +5,5 @@ docs/.vitepress/dist/
 .env
 .env.*
 !.env.example
+demo/*.sqlite
+demo/*.sqlite-journal
